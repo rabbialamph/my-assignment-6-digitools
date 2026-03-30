@@ -1,5 +1,5 @@
 import React, { } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { Check } from 'lucide-react';
 
 
@@ -51,8 +51,8 @@ const CardData = ({data, carts, setCarts}) => {
                <button 
                  onClick={BuyBowHandle} 
                  className={ isAdded 
-                 ?  "btn btn-info text-white rounded-full w-full px-6 mt-3"
-                 : "btn btn-primary rounded-full w-full px-6 mt-3"}
+                 ?  "btn bg-gradient-to-r from-blue-800 to-blue-600 text-white rounded-full w-full px-6 mt-3"
+                 : "btn bg-gradient-to-r from-purple-800 to-purple-600 text-white rounded-full w-full px-6 mt-3"}
                  >
                  { isAdded ? "Added to cart" : "Buy Now" }
                </button>

@@ -10,6 +10,7 @@ import { useState } from 'react'
 import TopTitle from './Components/DigitalTools/topTitle'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import PricingCard from './Components/PricingCard/PricingCard'
 
 const getCardData = async () => {
   const res = await fetch('/DigitalTools.json')
@@ -51,6 +52,8 @@ function App() {
       }
 
       <GetStartedSection></GetStartedSection>
+
+      <PricingCard></PricingCard>
         
         
     <ToastContainer />

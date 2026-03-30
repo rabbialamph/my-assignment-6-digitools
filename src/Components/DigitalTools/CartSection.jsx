@@ -50,7 +50,7 @@ const CartSection = ({carts, setCarts}) => {
                     <p className='font-bold'>${TotalPrice}</p>
                   </div>
                   <div>
-                     <button onClick={handleorder} className="btn btn-primary rounded-full w-full px-6">
+                     <button onClick={handleorder} className=" bg-gradient-to-r from-purple-800 to-purple-600 text-white rounded-full w-full p-2 cursor-pointer">
                        Proceed to Checkout
                      </button>
                   </div>
