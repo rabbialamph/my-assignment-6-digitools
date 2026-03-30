@@ -30,7 +30,7 @@ const icons = {
 };
     return (
       <div className="max-w-[1180px] mx-auto">
-      <section className="text-center py-20 px-4">
+      <section className="text-center py-8 px-4">
         <h2 className="text-3xl font-bold mb-2">Get Started In 3 Steps</h2>
         <p className="text-gray-500 mb-10">
           Start using premium digital tools in minutes, not hours.

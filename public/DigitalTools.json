@@ -1,110 +1,116 @@
 [
   {
     "id": 1,
-    "name": "FreshGuard Deo",
-    "description": "Long-lasting freshness with a cool and clean fragrance.",
-    "price": 6.99,
-    "period": "one-time",
+    "name": "Gemini AI",
+    "description": "Advanced AI assistant for research, coding, and productivity tasks.",
+    "price": 19.99,
+    "period": "Monthly",
     "tag": "popular",
     "tagType": "popular",
+    "image": "https://i.ibb.co.com/99SvnQhw/design-tool.png",
     "features": [
-      "24-hour odor protection",
-      "Skin-friendly formula",
-      "Quick dry spray",
-      "Fresh citrus scent"
+      "AI chat assistant",
+      "Code generation",
+      "Content creation",
+      "Real-time research"
     ],
     "icon": [
-      { "name": "spray-can", "library": "lucide" }
+      { "name": "sparkles", "library": "lucide" }
     ]
   },
   {
     "id": 2,
-    "name": "Arctic Breeze Deo",
-    "description": "Cooling deodorant designed to keep you fresh all day.",
-    "price": 7.49,
+    "name": "Grok AI",
+    "description": "Smart AI chatbot designed for fast answers and deep insights.",
+    "price": 18.99,
     "period": "Monthly",
     "tag": "new",
     "tagType": "new",
+    "image": "https://i.ibb.co.com/CKQHqHXj/operation.png",
     "features": [
-      "Cooling effect",
-      "48-hour protection",
-      "No white marks",
-      "Light icy fragrance"
+      "AI chat",
+      "Smart reasoning",
+      "Knowledge search",
+      "Developer friendly"
     ],
     "icon": [
-      { "name": "snowflake", "library": "lucide" }
+      { "name": "brain", "library": "lucide" }
     ]
   },
   {
     "id": 3,
-    "name": "Urban Shield Deo",
-    "description": "Powerful protection against sweat and odor for active lifestyles.",
-    "price": 8.99,
-    "period": "one-time",
+    "name": "Nova AI",
+    "description": "Powerful AI platform for automation and content generation.",
+    "price": 15.99,
+    "period": "Monthly",
     "tag": "best seller",
     "tagType": "best",
+    "image": "https://i.ibb.co.com/xqHd7Jxt/portfolio.png",
     "features": [
-      "48-hour protection",
-      "Anti-sweat formula",
-      "Strong masculine scent",
-      "Dermatologically tested"
+      "Content generator",
+      "AI automation",
+      "Idea generation",
+      "Multi-language support"
     ],
     "icon": [
-      { "name": "shield", "library": "lucide" }
+      { "name": "cpu", "library": "lucide" }
     ]
   },
   {
     "id": 4,
-    "name": "NatureMist Deo",
-    "description": "A gentle deodorant infused with natural fragrance.",
-    "price": 7.25,
-    "period": "one-time",
+    "name": "Orion AI",
+    "description": "AI tool designed for research, learning, and productivity.",
+    "price": 12.99,
+    "period": "Monthly",
     "tag": "new",
     "tagType": "new",
+    "image": "https://i.ibb.co.com/xqHd7Jxt/portfolio.png",
     "features": [
-      "Natural ingredients",
-      "Soft floral scent",
-      "Alcohol-free",
-      "Skin safe"
+      "Smart research assistant",
+      "Document analysis",
+      "Knowledge summary",
+      "Fast responses"
     ],
     "icon": [
-      { "name": "leaf", "library": "lucide" }
+      { "name": "orbit", "library": "lucide" }
     ]
   },
   {
     "id": 5,
-    "name": "PowerRush Deo",
-    "description": "High-performance deodorant for intense activities.",
-    "price": 9.49,
+    "name": "Atlas AI",
+    "description": "Enterprise-level AI platform for data analysis and automation.",
+    "price": 29.99,
     "period": "Monthly",
     "tag": "popular",
     "tagType": "popular",
+    "image": "https://i.ibb.co.com/3nTsrvz/social-media.png",
     "features": [
-      "Sport active formula",
-      "48-hour freshness",
-      "Quick dry",
-      "Bold fragrance"
+      "Data insights",
+      "Automation tools",
+      "AI analytics",
+      "Team collaboration"
     ],
     "icon": [
-      { "name": "zap", "library": "lucide" }
+      { "name": "globe", "library": "lucide" }
     ]
   },
   {
     "id": 6,
-    "name": "OceanWave Deo",
-    "description": "Feel the refreshing scent of the ocean with every spray.",
-    "price": 6.75,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
+    "name": "Quantum AI",
+    "description": "Next-generation AI model for coding, reasoning, and automation.",
+    "price": 24.99,
+    "period": "Monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "image": "https://i.ibb.co.com/21zWskgW/writing-2327400-1.png",
     "features": [
-      "Ocean fresh scent",
-      "24-hour protection",
-      "Non-sticky formula",
-      "Light fragrance"
+      "Advanced reasoning",
+      "AI coding assistant",
+      "Workflow automation",
+      "API integration"
     ],
     "icon": [
-      { "name": "waves", "library": "lucide" }
+      { "name": "atom", "library": "lucide" }
     ]
   }
 ]
