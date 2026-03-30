@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "FreshGuard Deo",
+    "description": "Long-lasting freshness with a cool and clean fragrance.",
+    "price": 6.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "24-hour odor protection",
+      "Skin-friendly formula",
+      "Quick dry spray",
+      "Fresh citrus scent"
+    ],
+    "icon": [
+      { "name": "spray-can", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arctic Breeze Deo",
+    "description": "Cooling deodorant designed to keep you fresh all day.",
+    "price": 7.49,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Cooling effect",
+      "48-hour protection",
+      "No white marks",
+      "Light icy fragrance"
+    ],
+    "icon": [
+      { "name": "snowflake", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Urban Shield Deo",
+    "description": "Powerful protection against sweat and odor for active lifestyles.",
+    "price": 8.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "48-hour protection",
+      "Anti-sweat formula",
+      "Strong masculine scent",
+      "Dermatologically tested"
+    ],
+    "icon": [
+      { "name": "shield", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "NatureMist Deo",
+    "description": "A gentle deodorant infused with natural fragrance.",
+    "price": 7.25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Natural ingredients",
+      "Soft floral scent",
+      "Alcohol-free",
+      "Skin safe"
+    ],
+    "icon": [
+      { "name": "leaf", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "PowerRush Deo",
+    "description": "High-performance deodorant for intense activities.",
+    "price": 9.49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Sport active formula",
+      "48-hour freshness",
+      "Quick dry",
+      "Bold fragrance"
+    ],
+    "icon": [
+      { "name": "zap", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "OceanWave Deo",
+    "description": "Feel the refreshing scent of the ocean with every spray.",
+    "price": 6.75,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Ocean fresh scent",
+      "24-hour protection",
+      "Non-sticky formula",
+      "Light fragrance"
+    ],
+    "icon": [
+      { "name": "waves", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ActiveGuard Deo",
+    "description": "Reliable odor protection for everyday use.",
+    "price": 5.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Daily protection",
+      "Smooth spray",
+      "Quick drying",
+      "Long lasting scent"
+    ],
+    "icon": [
+      { "name": "activity", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Midnight Musk Deo",
+    "description": "A deep musk fragrance for a bold and confident feel.",
+    "price": 8.25,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Strong musk scent",
+      "48-hour protection",
+      "Premium fragrance",
+      "No residue"
+    ],
+    "icon": [
+      { "name": "moon", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "FreshPulse Deo",
+    "description": "Instant freshness with an energizing fragrance.",
+    "price": 7.15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Energizing scent",
+      "All day freshness",
+      "Quick dry formula",
+      "Skin friendly"
+    ],
+    "icon": [
+      { "name": "heart-pulse", "library": "lucide" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "CrystalAir Deo",
+    "description": "Lightweight deodorant with a crystal clean scent.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Crystal clean fragrance",
+      "Long-lasting freshness",
+      "No stains",
+      "Gentle on skin"
+    ],
+    "icon": [
+      { "name": "wind", "library": "lucide" }
+    ]
+  }
+]
