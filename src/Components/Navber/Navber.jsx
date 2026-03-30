@@ -1,12 +1,14 @@
 import React from 'react';
 
+
 const Navber = ({carts}) => {
+  const menuText = ["Products", "Features", "Pricing", "Testimonials", "FAQ"];
   return (
     <div className="bg-base-100 shadow-sm border-b border-gray-100">
       <div className="navbar max-w-[1180px] mx-auto px-4 py-3">
 
         <div className="flex-1">
-          <a className="text-2xl font-bold text-purple-900 cursor-pointer">
+          <a className="text-2xl font-bold text-purple-800 cursor-pointer">
             DigiTools
           </a>
         </div>
@@ -14,11 +16,9 @@ const Navber = ({carts}) => {
    
         <div className="hidden md:flex">
           <ul className="flex gap-8 text-gray-700 font-medium">
-            <li className="hover:text-purple-700 cursor-pointer transition duration-300">Products</li>
-            <li className="hover:text-purple-700 cursor-pointer transition duration-300">Features</li>
-            <li className="hover:text-purple-700 cursor-pointer transition duration-300">Pricing</li>
-            <li className="hover:text-purple-700 cursor-pointer transition duration-300">Testimonials</li>
-            <li className="hover:text-purple-700 cursor-pointer transition duration-300">FAQ</li>
+            {
+              menuText.map(menu=> <li className="hover:text-purple-700 cursor-pointer transition duration-300">{menu}</li>)
+            }
           </ul>
         </div>
 
@@ -59,7 +59,7 @@ const Navber = ({carts}) => {
             Login
           </p>
 
-          <button className="btn btn-primary rounded-full px-6">
+          <button className="btn bg-gradient-to-r from-purple-800 to-purple-600 text-white rounded-full px-6">
             Get Started
           </button>
          </div>

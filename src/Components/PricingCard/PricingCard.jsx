@@ -93,29 +93,20 @@ const PricingCard = () => {
               <div>
                 <h3 className="text-xl font-semibold">{plan.name}</h3>
                 <p
-                  className={`mb-6 ${
-                    plan.popular ? "text-purple-200" : "text-gray-500"
-                  }`}
-                >
+                  className={`mb-6 ${plan.popular ? "text-purple-200" : "text-gray-500"}`}>
                   {plan.description}
                 </p>
 
                 <p className="text-4xl font-bold mb-6">
                   ${plan.price}
                   <span
-                    className={`text-lg ${
-                      plan.popular ? "text-purple-200" : "text-gray-500"
-                    }`}
-                  >
+                    className={`text-lg ${ plan.popular ? "text-purple-200" : "text-gray-500"}`}>
                     /{plan.period}
                   </span>
                 </p>
 
                 <ul
-                  className={`space-y-3 ${
-                    plan.popular ? "text-white" : "text-gray-600"
-                  }`}
-                >
+                  className={`space-y-3 ${plan.popular ? "text-white" : "text-gray-600"}`}>
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex items-center gap-1 "><Check size={18}></Check> {feature}</li>
                   ))}

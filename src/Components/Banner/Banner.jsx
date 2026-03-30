@@ -18,7 +18,7 @@ const Banner = () => {
                  Explore Products
               </p>
               <div className='flex gap-5 '>
-                <button className="btn btn-primary text-white rounded-full px-6">
+                <button className="btn bg-gradient-to-r from-purple-800 to-purple-600 text-white rounded-full px-6">
                   Explore Products
                 </button>
                 <button className="btn btn-outline btn-primary rounded-full"><Play></Play> Watch Demo</button>
