@@ -22,7 +22,7 @@
     "name": "Arctic Breeze Deo",
     "description": "Cooling deodorant designed to keep you fresh all day.",
     "price": 7.49,
-    "period": "one-time",
+    "period": "Monthly",
     "tag": "new",
     "tagType": "new",
     "features": [
@@ -76,7 +76,7 @@
     "name": "PowerRush Deo",
     "description": "High-performance deodorant for intense activities.",
     "price": 9.49,
-    "period": "one-time",
+    "period": "Monthly",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -105,78 +105,6 @@
     ],
     "icon": [
       { "name": "waves", "library": "lucide" }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "ActiveGuard Deo",
-    "description": "Reliable odor protection for everyday use.",
-    "price": 5.99,
-    "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best",
-    "features": [
-      "Daily protection",
-      "Smooth spray",
-      "Quick drying",
-      "Long lasting scent"
-    ],
-    "icon": [
-      { "name": "activity", "library": "lucide" }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Midnight Musk Deo",
-    "description": "A deep musk fragrance for a bold and confident feel.",
-    "price": 8.25,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Strong musk scent",
-      "48-hour protection",
-      "Premium fragrance",
-      "No residue"
-    ],
-    "icon": [
-      { "name": "moon", "library": "lucide" }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "FreshPulse Deo",
-    "description": "Instant freshness with an energizing fragrance.",
-    "price": 7.15,
-    "period": "one-time",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "Energizing scent",
-      "All day freshness",
-      "Quick dry formula",
-      "Skin friendly"
-    ],
-    "icon": [
-      { "name": "heart-pulse", "library": "lucide" }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "CrystalAir Deo",
-    "description": "Lightweight deodorant with a crystal clean scent.",
-    "price": 7.99,
-    "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best",
-    "features": [
-      "Crystal clean fragrance",
-      "Long-lasting freshness",
-      "No stains",
-      "Gentle on skin"
-    ],
-    "icon": [
-      { "name": "wind", "library": "lucide" }
     ]
   }
 ]
