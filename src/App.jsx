@@ -3,6 +3,7 @@ import Navber from './Components/Navber/Navber'
 import Banner from './Components/Banner/Banner'
 import StatsSection from './Components/StatsSection/StatsSection'
 import DigitalTools from './Components/DigitalTools/DigitalTools'
+import GetStartedSection from './Components/GetStartedSection/GetStartedSection'
 
 const getCardData = async () => {
   const res = await fetch('/DigitalTools.json')
@@ -19,6 +20,7 @@ function App() {
       <Banner></Banner>
       <StatsSection></StatsSection>
       <DigitalTools cardPromise={cardPromise}></DigitalTools>
+      <GetStartedSection></GetStartedSection>
     </>
   )
 }
