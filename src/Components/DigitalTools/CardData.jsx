@@ -1,5 +1,5 @@
 import React, { } from 'react';
-
+import { ToastContainer, toast } from 'react-toastify';
 import { Check } from 'lucide-react';
 
 
@@ -13,6 +13,7 @@ const CardData = ({data, carts, setCarts}) => {
             if (!isAdded) {
                 setCarts([...carts, data]);
              }
+             toast.success("Item successfully add to cart")
         };
 
     return (

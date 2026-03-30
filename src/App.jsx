@@ -8,6 +8,8 @@ import CartSection from './Components/DigitalTools/CartSection'
 import Tabs from './Components/Tabs/Tabs'
 import { useState } from 'react'
 import TopTitle from './Components/DigitalTools/topTitle'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const getCardData = async () => {
   const res = await fetch('/DigitalTools.json')
@@ -26,13 +28,13 @@ function App() {
 
   return (
     <>
-      <Navber></Navber>
+      <Navber carts={carts}></Navber>
       <Banner></Banner>
       <StatsSection></StatsSection>
 
       <TopTitle></TopTitle>
 
-      <Tabs tabHandleClick={tabHandleClick}></Tabs>
+      <Tabs tabHandleClick={tabHandleClick} carts={carts}></Tabs>
 
       {
         tabs 
@@ -44,10 +46,14 @@ function App() {
 
         : <CartSection
             carts={carts}
+            setCarts={setCarts}
         ></CartSection>
       }
 
       <GetStartedSection></GetStartedSection>
+        
+        
+    <ToastContainer />
     </>
   )
 }

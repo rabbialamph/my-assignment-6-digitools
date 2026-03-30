@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navber = () => {
+const Navber = ({carts}) => {
   return (
     <div className="bg-base-100 shadow-sm border-b border-gray-100">
       <div className="navbar max-w-[1180px] mx-auto px-4 py-3">
@@ -49,7 +49,7 @@ const Navber = () => {
                 </svg>
 
                 <span className="badge badge-sm badge-primary indicator-item">
-                  0
+                  {`(${carts.length})`}
                 </span>
               </div>
             </div>
