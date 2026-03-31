@@ -79,7 +79,7 @@ const PricingCard = () => {
               key={plan.id}
               className={`rounded-xl shadow-md p-8 flex flex-col justify-between ${
                 plan.popular
-                  ? "bg-gradient-to-b from-purple-600 to-purple-700 text-white relative"
+                  ? "bg-gradient-to-r from-purple-800 to-purple-600 text-white relative"
                   : "bg-gray-50"
               }`}
             >

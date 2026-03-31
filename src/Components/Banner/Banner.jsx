@@ -21,7 +21,7 @@ const Banner = () => {
                 <button className="btn bg-gradient-to-r from-purple-800 to-purple-600 text-white rounded-full px-6">
                   Explore Products
                 </button>
-                <button className="btn btn-outline btn-primary rounded-full"><Play></Play> Watch Demo</button>
+                <button className="btn border border-purple-800 hover:bg-gradient-to-r from-purple-800 to-purple-600 text-purple-800 hover:text-white rounded-full"><Play></Play> Watch Demo</button>
               </div>
              
             </div>

@@ -45,7 +45,7 @@ const icons = {
                 className="bg-white rounded-xl shadow p-6 relative hover:shadow-lg transition-shadow duration-300"
               >
    
-                <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full">
+                <span className="absolute flex items-center justify-center rounded-full top-4 right-4 bg-purple-600 text-white text-xs font-bold w-6 h-6 ">
                   {(index + 1).toString().padStart(2, '0')}
                 </span>
 
